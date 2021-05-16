@@ -1,0 +1,38 @@
+@prefix : <http://xujiai.xyz/schema/businessimpact/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+
+:SampleSizes rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:Countries rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:Industries rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:WorkforceSizes rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:GovernmentSchemes rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:ResponseTypes rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:CurrentStatus rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:ResponseRates rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:Initiatives rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
+:TimePeriods rdf:type owl:Class;
+	rdfs:subClassOf qb:Dimension .
+
